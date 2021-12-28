@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent {
 
-  public contadorClique: number = 0;
+  public contadorClique: number = 0;  
   public urlImagem: string = "https://angular.io/assets/images/logos/angular/angular.svg";
   public nome: string = "";
 
-  adicionarClique() {
+  adicionarClique(){
     this.contadorClique++;
   }
 
-  zerarContador() {
+  zerarContador(){
     this.contadorClique = 0;
   }
 
